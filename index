@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Recommendation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Find Your Next Game!</h1>
+  <form id="game-form">
+    <label for="game1">Enter a game you like:</label>
+    <input type="text" id="game1" required>
+    <label for="game2">Enter another game you like:</label>
+    <input type="text" id="game2" required>
+    <button type="submit">Get Recommendations</button>
+  </form>
+  <div id="results"></div>
+  <script src="script.js"></script>
+</body>
+</html>
