@@ -1,0 +1,142 @@
+{
+  "games": [
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "genres": ["action", "RPG", "open-world"],
+      "mechanics": ["story-driven", "combat", "exploration"],
+      "themes": ["fantasy", "dark", "mature"]
+    },
+    {
+      "name": "Celeste",
+      "genres": ["platformer", "indie"],
+      "mechanics": ["precision platforming", "single-player"],
+      "themes": ["mental health", "challenge", "pixel art"]
+    },
+    {
+      "name": "Hollow Knight",
+      "genres": ["action", "adventure", "metroidvania"],
+      "mechanics": ["exploration", "combat", "platforming"],
+      "themes": ["dark", "atmospheric", "insect world"]
+    },
+    {
+      "name": "Stardew Valley",
+      "genres": ["simulation", "RPG", "indie"],
+      "mechanics": ["farming", "crafting", "relationship-building"],
+      "themes": ["rural life", "community", "relaxing"]
+    },
+    {
+      "name": "Hades",
+      "genres": ["action", "roguelike", "indie"],
+      "mechanics": ["combat", "procedural generation", "narrative"],
+      "themes": ["Greek mythology", "underworld", "family"]
+    },
+    {
+      "name": "Among Us",
+      "genres": ["party", "social deduction", "indie"],
+      "mechanics": ["multiplayer", "deception", "task completion"],
+      "themes": ["space", "betrayal", "teamwork"]
+    },
+    {
+      "name": "Dead Cells",
+      "genres": ["action", "roguelike", "metroidvania"],
+      "mechanics": ["procedural generation", "combat", "permadeath"],
+      "themes": ["dark fantasy", "dungeon", "challenge"]
+    },
+    {
+      "name": "Cuphead",
+      "genres": ["action", "platformer", "indie"],
+      "mechanics": ["boss battles", "run and gun", "co-op"],
+      "themes": ["1930s cartoon", "surreal", "challenge"]
+    },
+    {
+      "name": "Ori and the Will of the Wisps",
+      "genres": ["platformer", "metroidvania", "adventure"],
+      "mechanics": ["exploration", "puzzle-solving", "combat"],
+      "themes": ["fantasy", "emotional", "nature"]
+    },
+    {
+      "name": "Disco Elysium",
+      "genres": ["RPG", "indie", "narrative-driven"],
+      "mechanics": ["dialogue-heavy", "skill checks", "investigation"],
+      "themes": ["detective", "political", "philosophical"]
+    },
+    {
+      "name": "Slay the Spire",
+      "genres": ["card game", "roguelike", "indie"],
+      "mechanics": ["deck-building", "turn-based", "procedural generation"],
+      "themes": ["fantasy", "strategy", "challenge"]
+    },
+    {
+      "name": "Undertale",
+      "genres": ["RPG", "indie", "adventure"],
+      "mechanics": ["choice-driven", "bullet hell", "puzzle-solving"],
+      "themes": ["meta-narrative", "humor", "morality"]
+    },
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "genres": ["action", "adventure", "open-world"],
+      "mechanics": ["exploration", "puzzle-solving", "combat"],
+      "themes": ["fantasy", "heroic", "ancient civilization"]
+    },
+    {
+      "name": "Minecraft",
+      "genres": ["sandbox", "survival", "indie"],
+      "mechanics": ["building", "crafting", "exploration"],
+      "themes": ["creativity", "adventure", "block world"]
+    },
+    {
+      "name": "Dark Souls III",
+      "genres": ["action", "RPG", "dark fantasy"],
+      "mechanics": ["challenging combat", "exploration", "character customization"],
+      "themes": ["dark", "apocalyptic", "lore-rich"]
+    },
+    {
+      "name": "Katana ZERO",
+      "genres": ["action", "platformer", "indie"],
+      "mechanics": ["fast-paced combat", "time manipulation", "story-driven"],
+      "themes": ["cyberpunk", "dark", "psychological"]
+    },
+    {
+      "name": "Gris",
+      "genres": ["platformer", "adventure", "indie"],
+      "mechanics": ["exploration", "puzzle-solving", "visual storytelling"],
+      "themes": ["emotional", "artistic", "minimalistic"]
+    },
+    {
+      "name": "Outer Wilds",
+      "genres": ["adventure", "exploration", "indie"],
+      "mechanics": ["time loop", "space exploration", "puzzle-solving"],
+      "themes": ["mystery", "science fiction", "philosophical"]
+    },
+    {
+      "name": "A Short Hike",
+      "genres": ["adventure", "indie"],
+      "mechanics": ["exploration", "collectibles", "relaxing gameplay"],
+      "themes": ["nature", "wholesome", "minimalistic"]
+    },
+    {
+      "name": "Factorio",
+      "genres": ["strategy", "simulation", "indie"],
+      "mechanics": ["automation", "resource management", "building"],
+      "themes": ["industrial", "engineering", "efficiency"]
+    },
+    {
+      "name": "Return of the Obra Dinn",
+      "genres": ["adventure", "indie"],
+      "mechanics": ["investigation", "logic puzzles", "deduction"],
+      "themes": ["mystery", "historical", "monochrome art style"]
+    },
+    {
+      "name": "Spiritfarer",
+      "genres": ["adventure", "simulation", "indie"],
+      "mechanics": ["resource management", "relationship-building", "exploration"],
+      "themes": ["death", "wholesome", "emotional"]
+    },
+    {
+      "name": "Firewatch",
+      "genres": ["adventure", "indie"],
+      "mechanics": ["exploration", "narrative-driven", "choice-driven"],
+      "themes": ["mystery", "isolation", "personal growth"]
+    }
+  ]
+}
