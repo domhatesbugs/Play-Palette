@@ -10,13 +10,30 @@ document.getElementById('game-form').addEventListener('submit', async function (
   const response = await fetch('games.json');
   const gameDatabase = await response.json();
 
-  // Filter games based on the user input
-  const recommendations = gameDatabase.games.filter(game =>
-    game.name.toLowerCase().includes(game1) || game.name.toLowerCase().includes(game2)
+  // Find matching games
+  const inputGames = gameDatabase.games.filter(game =>
+    game.name.toLowerCase() === game1 || game.name.toLowerCase() === game2
   );
 
-  // Display results
+  if (inputGames.length === 0) {
+    resultsDiv.innerHTML = "No matching games found. Try different inputs!";
+    return;
+  }
+
+  // Gather genres and mechanics from input games
+  const inputGenres = inputGames.flatMap(game => game.genres);
+  const inputMechanics = inputGames.flatMap(game => game.mechanics);
+
+  // Find recommendations based on shared genres or mechanics
+  const recommendations = gameDatabase.games.filter(game =>
+    !inputGames.includes(game) &&
+    (game.genres.some(genre => inputGenres.includes(genre)) ||
+     game.mechanics.some(mechanic => inputMechanics.includes(mechanic)))
+  );
+
+  // Display recommendations
   resultsDiv.innerHTML = recommendations.length > 0
-    ? recommendations.map(game => `<p><strong>${game.name}</strong>: ${game.themes.join(', ')}</p>`).join('')
+    ? `<h2>Recommended Games:</h2>${recommendations.map(game => `
+      <p><strong>${game.name}</strong>: ${game.themes.join(', ')}</p>`).join('')}`
     : "No recommendations found. Try different games!";
 });
